@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pkgmetadata>
+  <maintainer type="poetaste">
+    <email>purrzelle@proton.me</email>
+    <name>Reukae</name>
+  </maintainer>
+  <longdescription>
+    Prebuilt binary of The Unofficial Homestuck Collection, an offline
+    multimedia comic reader for Homestuck and related content.
+  </longdescription>
+</pkgmetadata>
