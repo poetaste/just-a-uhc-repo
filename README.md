@@ -4,7 +4,7 @@ A Gentoo overlay providing an ebuild for the binary release of the Unofficial Ho
 
 ---
 
-## Installation (Gentoo)
+## Installation 
 
 Enable the overlay:
 
