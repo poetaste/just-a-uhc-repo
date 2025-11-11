@@ -1,0 +1,9 @@
+#!/bin/sh
+XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-~/.config}
+
+if [ -f "$XDG_CONFIG_HOME/homestuck-flags.conf" ]; then
+    HOMESTUCK_USER_FLAGS="$(grep -v '^#' "$XDG_CONFIG_HOME/homestuck-flags.conf")"
+fi
+
+exec /usr/lib/unofficial-homestuck-collection/unofficial-homestuck-collection \
+    $HOMESTUCK_USER_FLAGS "$@"

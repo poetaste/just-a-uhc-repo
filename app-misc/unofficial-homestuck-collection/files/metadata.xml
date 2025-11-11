@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="poetaste">
+    <email>purrzelle@proton.me</email>
+    <name>Reukae</name>
+  </maintainer>
+  <longdescription>
+    Offline desktop application for reading Homestuck and related works.
+    This ebuild tracks the git master branch (live 9999 version).
+  </longdescription>
+  <upstream>
+    <remote-id type="github">GiovanH/unofficial-homestuck-collection</remote-id>
+  </upstream>
+</pkgmetadata>
