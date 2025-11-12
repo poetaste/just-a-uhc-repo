@@ -40,7 +40,10 @@ DEPEND="
     media-libs/mesa
     x11-libs/pango
 "
-RDEPEND="${DEPEND}"
+RDEPEND="
+	!games-misc/unofficial-homestuck-collection
+	${DEPEND}
+"
 
 S="${WORKDIR}/${_pkgbase}-${PV}"
 
