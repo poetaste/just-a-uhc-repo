@@ -11,8 +11,8 @@ A Gentoo overlay providing ebuilds for the [Unofficial Homestuck Collection](htt
 ### 1. Add the overlay
 
 ```sh
-# eselect repository add just-a-uhc-repo git https://github.com/poetaste/just-a-uhc-repo.git
-# emaint sync -r just-a-uhc-repo
+eselect repository add just-a-uhc-repo git https://github.com/poetaste/just-a-uhc-repo.git
+emaint sync -r just-a-uhc-repo
 ```
 
 ### 2. Install the package
@@ -21,13 +21,13 @@ Choose one variant:
 
 #### Binary package
 ```sh
-# emerge -av app-misc/unofficial-homestuck-collection-bin
+emerge -av app-misc/unofficial-homestuck-collection-bin
 ```
 
 #### Source package
 
 ```sh
-# emerge -av app-misc/unofficial-homestuck-collection
+emerge -av app-misc/unofficial-homestuck-collection
 ```
 
 ---
