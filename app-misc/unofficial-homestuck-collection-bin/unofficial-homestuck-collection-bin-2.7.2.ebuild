@@ -41,7 +41,7 @@ DEPEND="
     x11-libs/pango
 "
 RDEPEND="
-	!games-misc/unofficial-homestuck-collection
+	!app-misc/unofficial-homestuck-collection
 	${DEPEND}
 "
 

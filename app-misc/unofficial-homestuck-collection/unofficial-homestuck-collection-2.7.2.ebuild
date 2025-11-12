@@ -23,7 +23,7 @@ BDEPEND="
 "
 
 RDEPEND="
-	!games-misc/unofficial-homestuck-collection-bin
+	!app-misc/unofficial-homestuck-collection-bin
 	media-libs/alsa-lib
 	app-accessibility/at-spi2-core
 	x11-libs/gtk+:3
